@@ -6,17 +6,15 @@ import GitHub from "./../assets/github.png";
 import ReactJS from "./../assets/react.png";
 import MongoDB from "./../assets/mongodb.png";
 import NodeJS from "./../assets/nodejs.png";
-import Tailwind from "./../assets/tailwind.png";
 import Figma from "./../assets/figma.png";
 import AdobeAE from "./../assets/adobeae.png";
 import Photoshop from "./../assets/adobeps.png";
-import FLStudio from "./../assets/flstudio.png";
 import Redux from "../assets/redux.png";
 import TailwindCSS from "./../assets/tailwindcss.svg";
 
 const Skills = () => {
   return (
-    <div name="skills" className="bg-[#2f4454]">
+    <div name="skills" className="bg-[#2f4454] h-screen">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col w-full h-full justify-center">
         <div className="flex align-center h-[60px] border-b">
           <p className="text-white sans text-4xl">
@@ -25,7 +23,7 @@ const Skills = () => {
         </div>
         <div className="py-4">
           <p className="text-white sans text-xl tracking-widest opacity-80">
-            These are the technologies I worked with
+            // These are the technologies I worked with
           </p>
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
