@@ -9,7 +9,7 @@ import { AiOutlineGithub, AiOutlineLink } from "react-icons/ai";
 
 const Work = () => {
   return (
-    <div name="work" className="bg-[#2f4454]">
+    <div name="work" className="bg-[#2f4454] w-full h-screen">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col w-full h-full justify-center">
         <div className="flex align-center h-[60px] border-b">
           <p className="text-white sans text-4xl">
@@ -30,7 +30,7 @@ const Work = () => {
           </div>
           <div className="hidden md:flex flex-col ml-auto relative w-[40%]">
             <div className="flex flex-col mx-auto mr-0">
-              <p className="text-right text-[#65e1e3] font-[inconsoloata] tracking-widest">
+              <p className="text-right text-[#65e1e3] font-fira  tracking-widest">
                 Project
               </p>
               <p className="text-white sans text-4xl border-b">
@@ -74,7 +74,7 @@ const Work = () => {
             {/*Single Project Container - Start*/}
             <div className="w-[80%] h-[700px] mx-auto flex flex-col justify-around my-auto shadow-md pt-4">
               <div className="flex flex-col mx-auto w-[80%] pt-8">
-                <p className="text-left text-[#65e1e3] font-[inconsoloata] tracking-widest opacity-70">
+                <p className="text-left text-[#65e1e3] font-fira  tracking-widest opacity-70">
                   Project
                 </p>
                 <p className="text-white sans text-4xl">Tech For Today</p>
@@ -92,22 +92,22 @@ const Work = () => {
               <div className="max-w-[80%] h-[200px] mx-auto w-[80%] flex flex-col  justify-around">
                 <div className="w-full h-[50px] grid grid-cols-4 gap-2 grid-rows-2">
                   <div className="w-fit shadow-md hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group">
-                    <p className=" text-[#65e1e3]  opacity-60  font-[inconsoloata]">
+                    <p className=" text-[#65e1e3]  opacity-60  font-fira ">
                       React
                     </p>
                   </div>
                   <div className="w-fit  shadow-md hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group">
-                    <p className=" text-[#65e1e3] opacity-60 font-[inconsoloata]">
+                    <p className=" text-[#65e1e3] opacity-60 font-fira ">
                       Redux
                     </p>
                   </div>
                   <div className="w-fit align-center  shadow-md hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group">
-                    <p className=" text-[#65e1e3] opacity-60 font-[inconsoloata]">
+                    <p className=" text-[#65e1e3] opacity-60 font-fira ">
                       MongoDB
                     </p>
                   </div>
                   <div className="w-fit  shadow-md hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group">
-                    <p className=" text-[#65e1e3] opacity-60  font-[inconsoloata]">
+                    <p className=" text-[#65e1e3] opacity-60  font-fira ">
                       NodeJS
                     </p>
                   </div>
@@ -115,7 +115,7 @@ const Work = () => {
                     <p className=" text-[#65e1e3] opacity-60">Figma</p>
                   </div>
                   <div className="w-fit  shadow-md hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group">
-                    <p className=" text-[#65e1e3] opacity-60 font-[inconsoloata]">
+                    <p className=" text-[#65e1e3] opacity-60 font-fira ">
                       StyledC.
                     </p>
                   </div>

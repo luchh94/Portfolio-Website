@@ -3,8 +3,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: (theme) => ({
-        "ecommerce": "url('./assets/ecommercewebsite.png')",
+        ecommerce: "url('./assets/ecommercewebsite.png')",
       }),
+      fontFamily: {
+        fira: "'Fira Code', monospace",
+      },
     },
   },
   plugins: [],
