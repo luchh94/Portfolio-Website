@@ -16,23 +16,23 @@ const Navbar = () => {
         <ul className="hidden md:flex">
           <li className="font-[inconsoloata] flex">
             <p className="text-[#65e1e3] px-5">01.</p>
-            <p className="tracking-[5px]">Home</p>
+            <p className="tracking-widest">Home</p>
           </li>
           <li className="font-[inconsoloata] flex">
             <p className="text-[#65e1e3] px-5">02.</p>
-            <p className="tracking-[5px]">About</p>
+            <p className="tracking-widest">About</p>
           </li>
           <li className="font-[inconsoloata] flex">
             <p className="text-[#65e1e3] px-5">03.</p>
-            <p className="tracking-[5px]">Skills</p>
+            <p className="tracking-widest">Skills</p>
           </li>
           <li className="font-[inconsoloata] flex">
             <p className="text-[#65e1e3] px-5">04.</p>
-            <p className="tracking-[5px]">Work</p>
+            <p className="tracking-widest">Work</p>
           </li>
           <li className="font-[inconsoloata] flex">
             <p className="text-[#65e1e3] px-5">05.</p>
-            <p className="tracking-[5px]">Contact Me</p>
+            <p className="tracking-widest">Contact Me</p>
           </li>
         </ul>
       </div>
