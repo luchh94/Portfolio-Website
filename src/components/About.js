@@ -12,22 +12,22 @@ const About = () => {
         </div>
         <div className="mt-10">
           <div>
-            <p className="max-w-[500px] text-white">
-              <p className="sans tracking-widest opacity-80">
+            <p className="max-w-[500px] text-white/[0.8]">
+              <p className="sans tracking-widest">
                 Hey! My name is Lucas and I like being creative on the Internet.
               </p>
-              <p className="sans my-10 tracking-widest opacity-60">
+              <p className="sans my-10 tracking-widest text-white/[0.6]">
                 Besides my passion for doing sports I grew up with a Computer
                 and had all different kind of interests from editing Videos to
                 making Music to... creating
                 <span className="text-[#65e1e3]"> Web-Applications</span>!
               </p>
-              <p className="sans tracking-widest opacity-60">
+              <p className="sans tracking-widest text-white/[0.6]">
                 For me life means learning and therefore I taught myself many
                 different kind of skills to today. In my opinion you can learn
                 whatver you want, you only have to no where to look for.
               </p>
-              <p className="sans-italic tracking-widest opacity-60 mt-20">
+              <p className="sans-italic tracking-widest text-white/[0.6] mt-20">
                 There is nothing you cannot be, there is nothing you cannot do.
                 There is nothing you cannot have.
               </p>

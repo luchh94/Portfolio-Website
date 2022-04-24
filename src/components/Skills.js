@@ -22,38 +22,38 @@ const Skills = () => {
           </p>
         </div>
         <div className="py-4">
-          <p className="text-white sans text-xl tracking-widest opacity-80">
+          <p className="text-white sans text-xl tracking-widest text-white/[0.8]">
             // These are the technologies I worked with
           </p>
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div className="shadow-md hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group">
             <img className="w-20 mx-auto" src={HTML} />
-            <p className="hidden group-hover:block text-white opacity-60">
+            <p className="hidden group-hover:block text-white/[0.6]">
               Html
             </p>
           </div>
-          <div className="h-[110px] shadow-md hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group">
+          <div className="h-[110px] shadow-md hover:scale-110 duration-300  hover:opacity-100 saturate-5 hover:saturate-100 group">
             <img className="w-20 mx-auto" src={CSS} />
             <p className="text-white opacity-60 hidden group-hover:block">
               Css
             </p>
           </div>
-          <div className="shadow-md hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group">
+          <div className="shadow-md hover:scale-110 duration-300 opacity-60  hover:opacity-100 saturate-5 hover:saturate-100 group">
             <img className="w-20 mx-auto" src={JavaScript} />
-            <p className="text-white opacity-60 hidden group-hover:block">
+            <p className="text-white/[0.6] hidden group-hover:block">
               JavaScript
             </p>
           </div>
           <div className="shadow-md hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group">
             <img className="w-20 mx-auto" src={GitHub} />
-            <p className="text-white opacity-60 hidden group-hover:block">
+            <p className="text-white/[0.6] hidden group-hover:block">
               GitHub
             </p>
           </div>
           <div className="h-[110px] shadow-md hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group">
             <img className="w-20 mx-auto" src={ReactJS} />
-            <p className="text-white opacity-60 hidden group-hover:block">
+            <p className="text-white/[0.6] hidden group-hover:block">
               React
             </p>
           </div>
@@ -71,7 +71,7 @@ const Skills = () => {
           </div>
           <div className="shadow-md hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group">
             <img className="w-20 mx-auto" src={NodeJS} />
-            <p className="text-white opacity-60 hidden group-hover:block">
+            <p className="text-white hidden opacity-60 group-hover:block">
               NodeJs
             </p>
           </div>
@@ -79,7 +79,7 @@ const Skills = () => {
           <div className="shadow-md h-[110px] hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group">
             <img className="w-20 mx-auto" src={TailwindCSS} />
             <p className="text-white opacity-60 hidden group-hover:block">
-              TAILWIND
+              Tailwind
             </p>
           </div>
           <div className="shadow-md hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group">

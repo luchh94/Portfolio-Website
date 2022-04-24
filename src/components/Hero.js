@@ -8,10 +8,10 @@ const Hero = () => {
           Hi! My name is
         </p>
         <h1 className="text-6xl text-white sans mt-4 font-bold">Lucas Hoffmann.</h1>
-        <h1 className="text-6xl text-white sans mb-4 opacity-80">
+        <h1 className="text-6xl text-white/[0.8] sans mb-4 ">
           I build things for the web.
         </h1>
-        <p className="text-1xl text-white sans mb-8 max-w-[500px] leading-6 opacity-60">
+        <p className="text-1xl text-white/[0.6] sans mb-8 max-w-[500px] leading-6">
           I am a self-taught Web-Developer from Hamburg, currently based in
           Berlin. I like to learn new stuff and if you want to hire me...
         </p>
