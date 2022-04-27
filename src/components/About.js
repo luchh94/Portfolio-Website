@@ -1,18 +1,19 @@
 import React from "react";
+import Lucas from "./../assets/lucas.jpg";
 
 const About = () => {
   return (
-    <div name="about" className="w-full bg-[#2f4454] h-screen">
-      <div className="max-w-[1000px] mx-auto h-full w-full flex flex-col justify-center p-4">
+    <div name="about" className="bg-[#2f4454] h-screen">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col w-full h-full justify-center">
         <div className="flex align-center h-[60px] border-b">
           <p className="text-white sans text-4xl">
             {" "}
             <span className="text-2xl mr-3 text-[#65e1e3]">01.</span>About
           </p>
         </div>
-        <div className="mt-10">
-          <div>
-            <p className="max-w-[500px] text-white/[0.8]">
+        <div className="flex flex-col md:flex-row mt-10">
+          <div className="w-[100%] md:w-[50%] justify-center">
+            <p className="max-w-[500px] text-white/[0.8] mx-auto">
               <p className="sans tracking-widest">
                 Hey! My name is Lucas and I like being creative on the Internet.
               </p>
@@ -33,7 +34,10 @@ const About = () => {
               </p>
             </p>
           </div>
-          <div></div>
+          <div className="flex  m-0 justify-center md:mt-0 mt-20 relative w-[100%] md:w-[50%] mx-auto ">
+            <div className="absolute top-0 bottom-0  right-0 bg-[#307bb46f]" />
+            <img src={Lucas} className="md:max-w-[350px] max-w-[300px] opacity-60" />
+          </div>
         </div>
       </div>
     </div>

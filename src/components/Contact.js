@@ -43,7 +43,7 @@ const Contact = () => {
             rows="10"
             placeholder="Type in your name..."
           ></textarea>
-          <button className="border w-[70%] text-[#65e1e3] font-fira tracking-widest p-3 mx-auto">
+          <button className="border w-[70%] text-[#65e1e3] font-fira tracking-widest p-3 mx-auto hover:scale-[1.05] duration-300">
             Hello!
           </button>
         </form>
