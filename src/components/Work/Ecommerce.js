@@ -12,7 +12,7 @@ const Ecommerce = () => {
     <>
       <div className="flex-col md:flex-row md:flex md:pb-10 md:pt-20  flex ">
         <div className="w-[60%] hidden md:block">
-          <a href="" className="color">
+          <a target="_blank" href="https://techfortoday.herokuapp.com/" className="color">
             <div className="hover:scale-[1.05] duration-300 relative w-full h-96">
               <img
                 src={EWebsite}
@@ -36,21 +36,31 @@ const Ecommerce = () => {
                 {" "}
                 E-Commerce-Site
               </span>
-              , which has a fully functional
-              <span className="text-[#65e1e3] opacity-99"> Cart-System</span>,
-              you are able to
+              , which includes a fully functional
+              <span className="text-[#65e1e3] opacity-99"> Cart-System</span>, a
+              ready-to-sure
               <span className="text-[#65e1e3] opacity-99">
                 {" "}
-                create an Account and Login
+                user login and account
               </span>
-              ,{" "}
-              <span className="text-[#65e1e3] opacity-99"> pay your order</span>
-              , and as an{" "}
-              <span className="text-[#65e1e3] opacity-99"> Admin</span> you have
-              complete Control through{" "}
-              <span className="text-[#65e1e3] opacity-99"> Admin-Pages</span>,
-              which makes it easy to create and delete products and edit orders
-              and user.
+              , and a
+              <span className="text-[#65e1e3] opacity-99">
+                {" "}
+                pay system for each order.
+              </span>
+              You have complete control through
+              <span className="text-[#65e1e3] opacity-99">
+                {" "}
+                Admin pages
+              </span>{" "}
+              making it easy to
+              <span className="text-[#65e1e3] opacity-99">
+                {" "}
+                create and delete products, edit orders, and track user
+                interaction.
+              </span>
+              This Site still needs some work, especially when it comes to
+              responsive design.
             </p>
           </div>
           <div></div>
@@ -70,12 +80,13 @@ const Ecommerce = () => {
             </div>
             <div className="mx-auto w-[80%]">
               <p className="tracking-widest text-white opacity-70">
-                My biggest Project so far: A complete functional
-                E-Commerce-Site, which has a fully functional Cart-System, you
-                are able to create an Account and Login, pay your order, and as
-                an Admin you have complete Control through Admin-Pages, which
-                makes it easy to create and delete products and edit orders and
-                user.
+                My biggest Project so far: A complete functional E-Commerce-Site
+                , which includes a fully functional Cart-System ready-to-sure
+                user login and account , and a pay system for each order. You
+                have complete control through Admin pages making it easy to
+                create and delete products, edit orders, and track user
+                interaction. This Site still needs some work, especially when it
+                comes to responsive design.
               </p>
             </div>
             <div className="max-w-[80%] h-[200px] mx-auto w-[80%] flex flex-col  justify-around">
@@ -108,9 +119,15 @@ const Ecommerce = () => {
                 </div>
               </div>
               <div className="flex w-[80%] h-[50px] mx-auto justify-around">
-                <AiOutlineGithub className="text-4xl text-white" />
+                <a target="_blank" href="https://github.com/luchh94/E---Commerce-Site---Shop">
+                  {" "}
+                  <AiOutlineGithub className="text-4xl text-white" />
+                </a>
 
-                <AiOutlineLink className="text-4xl text-white" />
+                <a target="_blank" href="https://techfortoday.herokuapp.com/">
+                  {" "}
+                  <AiOutlineLink className="text-4xl text-white" />
+                </a>
               </div>
             </div>
           </div>
@@ -143,9 +160,13 @@ const Ecommerce = () => {
       </div>
       <div className="w-full h-[200px] hidden md:flex justify-center items-center text-center">
         <div className="border-t w-[25%] h-[50%] flex justify-around items-center mr-0">
-          <AiOutlineGithub className="text-4xl text-white hover:scale-[1.4] duration-300" />
+          <a target="_blank" href="https://github.com/luchh94/E---Commerce-Site---Shop">
+            <AiOutlineGithub className="text-4xl text-white hover:scale-[1.4] duration-300" />
+          </a>
 
-          <AiOutlineLink className="text-4xl text-white hover:scale-[1.4] duration-300" />
+          <a target="_blank" href="https://techfortoday.herokuapp.com/">
+            <AiOutlineLink className="text-4xl text-white hover:scale-[1.4] duration-300" />
+          </a>
         </div>
       </div>
     </>

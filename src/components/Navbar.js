@@ -119,12 +119,12 @@ const Navbar = () => {
       <div className="hidden md:h-[200px] lg:flex fixed flex-col top-[35%] left-0 ml-[-30px] ">
         <ul className="h-[200px] flex flex-col justify-around">
           <li className="">
-            <a>
+            <a target="_blank" >
               <AiOutlineLinkedin className="h-[40px] w-[110px]" />
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://github.com/luchh94">
+            <a  target="_blank" href="https://github.com/luchh94">
               <AiOutlineGithub className="h-[40px] w-[110px]" />
             </a>
           </li>
