@@ -38,7 +38,7 @@ const Ecommerce = () => {
               </span>
               , which includes a fully functional
               <span className="text-[#65e1e3] opacity-99"> Cart-System</span>, a
-              ready-to-sure
+              ready-to-use
               <span className="text-[#65e1e3] opacity-99">
                 {" "}
                 user login and account
@@ -81,7 +81,7 @@ const Ecommerce = () => {
             <div className="mx-auto w-[80%]">
               <p className="tracking-widest text-white opacity-70">
                 My biggest Project so far: A complete functional E-Commerce-Site
-                , which includes a fully functional Cart-System ready-to-sure
+                , which includes a fully functional Cart-System ready-to-use
                 user login and account , and a pay system for each order. You
                 have complete control through Admin pages making it easy to
                 create and delete products, edit orders, and track user
