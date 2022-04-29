@@ -90,30 +90,30 @@ const Ecommerce = () => {
               </p>
             </div>
             <div className="max-w-[80%] h-[200px] mx-auto w-[80%] flex flex-col  justify-around">
-              <div className="w-full h-[50px] grid grid-cols-4 gap-2 grid-rows-2">
+              <div className="w-full max-h-[50px] grid grid-cols-4 gap-2 grid-rows-2">
                 <div className="w-fit shadow-md hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group">
-                  <p className=" text-[#65e1e3]  opacity-60  font-fira ">
+                  <p className=" text-[#65e1e3]  text-[12px] sm:text-base opacity-60  font-fira ">
                     React
                   </p>
                 </div>
                 <div className="w-fit  shadow-md hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group">
-                  <p className=" text-[#65e1e3] opacity-60 font-fira ">Redux</p>
+                  <p className=" text-[#65e1e3] text-[12px] sm:text-base opacity-60 font-fira ">Redux</p>
                 </div>
                 <div className="w-fit align-center  shadow-md hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group">
-                  <p className=" text-[#65e1e3] opacity-60 font-fira ">
+                  <p className=" text-[#65e1e3] text-[12px] sm:text-base opacity-60 font-fira ">
                     MongoDB
                   </p>
                 </div>
                 <div className="w-fit  shadow-md hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group">
-                  <p className=" text-[#65e1e3] opacity-60  font-fira ">
+                  <p className=" text-[#65e1e3] text-[12px] sm:text-base opacity-60  font-fira ">
                     NodeJS
                   </p>
                 </div>
                 <div className="w-fit  shadow-md hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group">
-                  <p className=" text-[#65e1e3] opacity-60">Figma</p>
+                  <p className=" text-[#65e1e3] text-[12px] sm:text-base opacity-60">Figma</p>
                 </div>
                 <div className="w-fit  shadow-md hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group">
-                  <p className=" text-[#65e1e3] opacity-60 font-fira ">
+                  <p className=" text-[#65e1e3] text-[12px] sm:text-base opacity-60 font-fira ">
                     StyledC.
                   </p>
                 </div>
