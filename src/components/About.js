@@ -3,7 +3,7 @@ import Lucas from "./../assets/lucas.jpg";
 
 const About = () => {
   return (
-    <div name="about" className="bg-[#2f4454] h-screen">
+    <div name="about" className="bg-[#2f4454] h-full">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col w-full h-full justify-center">
         <div className="flex align-center h-[60px] border-b">
           <p className="text-white sans text-4xl">
