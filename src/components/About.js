@@ -37,11 +37,11 @@ const About = () => {
               </p>
             </p>
           </div>
-          <div className="flex  m-0 justify-center md:mt-0 mt-20 relative w-[100%] md:w-[50%] mx-auto ">
+          <div className="flex m-0 justify-center md:mt-0 mt-20 relative w-[100%] md:w-[50%] mx-auto ">
             <div className="absolute top-0 bottom-0  right-0 bg-[#307bb46f]" />
             <img
               src={Lucas}
-              className="md:max-w-[350px] max-w-[300px] opacity-60"
+              className=" md:max-w-[350px] max-w-[300px] opacity-60"
             />
           </div>
         </div>
