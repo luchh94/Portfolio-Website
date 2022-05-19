@@ -3,6 +3,7 @@ import AppleClone from "./Work/AppleClone";
 import Ecommerce from "./Work/Ecommerce";
 import OpenseaClone from "./Work/OpenseaClone";
 import Portfolio from "./Work/Portfolio";
+import FitnessWebsite from "./Work/FitnessWebsite";
 
 const Work = () => {
   return (
@@ -14,6 +15,7 @@ const Work = () => {
           </p>
         </div>
         <div className="flex flex-col">
+          <FitnessWebsite />
           <Ecommerce />
           <AppleClone />
           <OpenseaClone />
