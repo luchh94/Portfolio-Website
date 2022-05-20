@@ -24,13 +24,13 @@ const Portfolio = () => {
         </div>
         <div className="hidden md:flex flex-col ml-auto relative w-[40%]">
           <div className="flex flex-col mx-auto mr-0">
-            <p className="text-right text-[#65e1e3] font-fira  tracking-widest">
+            <p className="text-right text-[#EA738DFF] font-fira  tracking-widest">
               Project
             </p>
-            <p className="text-white sans text-4xl border-b">Portfolio</p>
+            <p className="text-[#4c356c] sans text-4xl border-b border-[#4c356c]">Portfolio</p>
           </div>
-          <div className="bg-[#0c405e] w-[600px] h-[150px] right-0 top-40 absolute hidden shadow-md text-center md:flex justify-content align-center">
-            <p className="w-fit h-fit tracking-widest text-white opacity-70 font-thin mx-auto my-auto ">
+          <div className="bg-[white] w-[600px] h-[150px] right-0 top-40 absolute hidden shadow-md text-center md:flex justify-content align-center">
+            <p className="w-fit h-fit tracking-widest text-[#4c356c] opacity-70 font-thin mx-auto my-auto ">
               My Personal Portfolio. I was going for a minimalistic design
               without any crazy animation to showcase my completed projects,
               demonstrate my tech and design skills, and tell you a bit about
@@ -47,13 +47,13 @@ const Portfolio = () => {
           {/*Single Project Container - Start*/}
           <div className="w-[80%] h-[700px] mx-auto flex flex-col justify-around my-auto shadow-md pt-4">
             <div className="flex flex-col mx-auto w-[80%] pt-8">
-              <p className="text-left text-[#65e1e3] font-fira  tracking-widest opacity-70">
+              <p className="text-left text-[#EA738DFF] font-fira  tracking-widest opacity-70">
                 Project
               </p>
-              <p className="text-white sans text-4xl">Portfolio</p>
+              <p className="text-[#4c356c] sans text-4xl">Portfolio</p>
             </div>
             <div className="mx-auto w-[80%]">
-              <p className="tracking-widest text-white opacity-70">
+              <p className="tracking-widest text-[#4c356c] opacity-70">
                 My Personal Portfolio. I was going for a minimalistic design
                 without any crazy animation to showcase my completed projects,
                 demonstrate my tech and design skills, and tell you a bit about
@@ -63,12 +63,12 @@ const Portfolio = () => {
             <div className="max-w-[80%] h-[200px] mx-auto w-[80%] flex flex-col  justify-around">
               <div className="w-full h-[50px] grid grid-cols-4 gap-2 grid-rows-2">
                 <div className="w-fit shadow-md hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group">
-                  <p className=" text-[#65e1e3] text-[12px] sm:text-base  opacity-60  font-fira ">
+                  <p className=" text-[white] bg-[#4c356c] text-[12px] sm:text-base  opacity-60  font-fira ">
                     ReactJS
                   </p>
                 </div>
                 <div className="w-fit  shadow-md hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group">
-                  <p className=" text-[#65e1e3] text-[12px] sm:text-base opacity-60 font-fira ">
+                  <p className=" text-[white] bg-[#4c356c] text-[12px] sm:text-base opacity-60 font-fira ">
                     Tailwind
                   </p>
                 </div>
@@ -76,12 +76,12 @@ const Portfolio = () => {
               <div className="flex w-[80%] h-[50px] mx-auto justify-around">
                 <a target="_blank" href="https://github.com/luchh94/portfolio-website">
                   {" "}
-                  <AiOutlineGithub className="text-4xl text-white" />
+                  <AiOutlineGithub className="text-4xl text-[#4c356c]" />
                 </a>
 
                 <a>
                   {" "}
-                  <AiOutlineLink className="text-4xl text-white" />
+                  <AiOutlineLink className="text-4xl text-[#4c356c]" />
                 </a>
               </div>
             </div>
@@ -91,23 +91,23 @@ const Portfolio = () => {
       </div>
       <div>
         <div className="w-full h-[75px] hidden md:grid grid-cols-5 gap-2 grid-rows-1 text-center">
-          <div className="shadow-md hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group flex flex-col justify-between">
+          <div className="shadow-md bg-[#4c356c] hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group flex flex-col justify-around">
             <img className="w-10 mx-auto" src={ReactJS} />
-            <p className="text-white opacity-60  group-hover:block">ReactJS</p>
+            <p className="text-[white] opacity-60  group-hover:block">ReactJS</p>
           </div>
-          <div className="shadow-md hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group flex flex-col justify-between">
+          <div className="shadow-md bg-[#4c356c] hover:scale-110 duration-300 opacity-60 hover:opacity-100 saturate-5 hover:saturate-100 group flex flex-col justify-around">
             <img className="w-10 mx-auto" src={Tailwind} />
-            <p className="text-white opacity-60 group-hover:block">Tailwind</p>
+            <p className="text-[white] opacity-60 group-hover:block">Tailwind</p>
           </div>
         </div>
       </div>
       <div className="w-full h-[200px] hidden md:flex justify-center items-center text-center">
-        <div className="border-t w-[25%] h-[50%] flex justify-around items-center mr-0">
+        <div className="border-t border-[#4c356c] w-[25%] h-[50%] flex justify-around items-center mr-0">
           <a target="_blank" href="https://github.com/luchh94/portfolio-website">
-            <AiOutlineGithub className="text-4xl text-white hover:scale-[1.4] duration-300" />
+            <AiOutlineGithub className="text-4xl text-[#4c356c] hover:scale-[1.4] duration-300" />
           </a>
 
-          <AiOutlineLink className="text-4xl text-white hover:scale-[1.4] duration-300" />
+          <AiOutlineLink className="text-4xl text-[#4c356c] hover:scale-[1.4] duration-300" />
         </div>
       </div>
     </>

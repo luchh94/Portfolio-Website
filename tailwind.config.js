@@ -7,6 +7,7 @@ module.exports = {
       }),
       fontFamily: {
         fira: "'Fira Code', monospace",
+        sans: "'Open Sans', sans-serif",
       },
     },
   },
